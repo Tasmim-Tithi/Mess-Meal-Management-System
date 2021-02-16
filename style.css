@@ -1,0 +1,328 @@
+*{margin:0;padding:0;}
+
+h1{
+	padding-top: 20px;
+	margin-left:20px;
+	font-family: botoni mt;
+	color: #fffde7;
+}
+
+body{
+	background-color:white;
+	
+	background-image:url("images/messMealcp.jpg");
+	
+	background-size: cover;
+	/*height: 627px;
+	width:1400px;*/
+	background-repeat: no-repeat;
+	overflow:scroll-y;
+	
+}
+
+section{
+
+}
+
+#sec{
+	background-color:#000000b5;
+	display:block;
+	height: 400px;
+	width: 400px;
+	margin: 110px auto;
+	/*border-left: 10px solid gray;*/
+	overflow:hidden;
+}
+.firstbtn{
+	width:230px;
+	height: 50px;
+	color: #fff;
+	background-color:#8271a0;
+	font-family:time new roman;
+	font-weight:bold;
+	font-size:20px;
+	
+	border-radius: 10px;
+	margin-top:100px;
+	margin-left: 90px;
+}
+.firstbtn:hover{
+	cursor:pointer;
+}
+.lastbtn:hover{
+	cursor:pointer;
+}
+.lastbtn{
+	width:230px;
+	height: 50px;
+	color: #fff;
+	font-family:time new roman;
+	font-weight:bold;
+	font-size:20px;
+	background-color:#8271a0;
+	display:block;
+	border-radius: 10px;
+	margin-top:30px;
+	margin-left: 90px;
+	
+}
+input{
+	width:180px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-left: 95px;
+	
+	
+}
+.inner{
+	height:30px;
+	width:40px;
+	
+	font-family:time new roman;
+	background-color: #fff9c4;
+	font-weight:bold;
+	margin-left:5px;
+	border-radius:100%;
+	
+}
+.inner:hover{
+	cursor:pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  top: 140%;
+  left: 60%;
+ 
+  margin-left: -125px; /* Use half of the width (250/2 = 125), to center the tooltip */
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+a{
+	text-decoration: none;
+}
+#box1{
+	background-color:black;
+	height: 50px;
+	width: 100%;
+	
+	position:absolute;
+	
+}
+.tooltip p{
+	position: relative;
+	/*left: 1150px;*/
+	margin-left:20px;
+	font-size: 30px;
+	margin-top: 6px;
+	margin-right: 20px;
+	font-family: ink free;
+	font-weight: bold;
+	
+	
+}
+.tooltip  p a {
+	color: #fff;
+}
+
+.box2{
+	
+	height: 70px;
+	width: 100%;
+	border: 1px solid #ffccbc;
+	margin-bottom: 10px;
+	
+}
+.fl{
+	margin-top: 20px;
+}
+.box2 li{
+		margin-top: 20px;
+		
+}
+
+.box2 li a{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 6px;
+	margin-left: 20px;
+	color: #112e3c;
+	padding: 10px;
+
+	
+}
+#box3{
+	height: 40px;
+	width: 100%;
+	background-color:#90caf9;
+}
+#box3 p {
+	text-align:center;
+	padding:8px;
+	
+}
+#box3 p a{
+	
+	font-size: 20px;
+	
+	color: #112e3c;
+	
+	font-weight: bold;
+}
+.adM{
+	font-family:cambria;
+	font-size: 20px;
+	font-weight:bold;
+	margin:20px;
+	padding: 10px;
+	color:#3f51b5;
+}
+
+
+.blk{
+	margin-top: 20px;
+	margin-left:16px;
+	height: 20px;
+}
+
+
+#ml{
+	
+	width: 800px;
+	margin: 50px auto;
+	font-family:cambria;
+	padding: 10px;
+	
+	
+}
+.mlc{
+	table-layout:fixed;
+	 border-collapse: collapse;
+	 border-spacing: 0;
+	 width: 100%;
+}
+.d1{
+	width:5%;
+}
+.d2{
+	width:20%;
+}
+.d3{
+	width:25%;
+}
+.d4{
+	width:50%;
+}
+.mlf{
+	text-align:center;
+	
+}
+.mlf td{
+	padding: 6px;
+	white-space: nowrap;
+}
+
+.bz{
+	font-family:cambria;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:20px;
+}
+.boxbz{
+	margin-left:10px;
+}
+.addbz{
+	border-radius:10px;
+	width: 50px;
+	font-family:cambria;
+	font-weight:bold;
+	font-size:20px;
+	margin-left:20px;
+	cursor:pointer;
+}
+#bzr{
+	float:right;
+	margin-right: 400px;
+	margin-top: 20px;
+}
+h4{
+	font-family:cambria;
+	font-weight:bold;
+	color:#3f51b5;
+	font-size: 20px;
+	padding: 20px;
+	margin-left: -10px;
+}
+h4 br{
+	color:#3f51b5;
+	font-family:cambria;
+	font-weight:bold;
+}
+.bzpr{
+	font-family:ink free;
+	font-weight:bold;
+	font-size: 20px;
+	
+	
+}
+.n{
+	margin-left: 70px;
+	
+}
+.l{
+	margin-left:110px ;
+	
+}
+.bzpr .r{
+	margin-top: 10px;
+	overflow:hidden;
+}
+
+.r{
+	font-family:cambria;
+	font-weight:bold;
+	font-size: 15px;
+	
+}
+.a{
+	margin-left: 168px;
+}
+
+#md{
+	margin: 10px 10px;
+	padding: 10px;
+}
+#mds{
+	float:right;
+	margin-top: -200px;
+	margin-right: 300px;
+}
